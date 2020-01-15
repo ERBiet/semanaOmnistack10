@@ -11,5 +11,6 @@ mongoose.connect('mongodb+srv://omnistack10:omnistack10@cluster0-j8omi.mongodb.n
 });
 
 app.use(express.json());
+app.use(routes);
 
 app.listen(3333);
